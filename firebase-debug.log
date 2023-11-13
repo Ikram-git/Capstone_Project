@@ -1,0 +1,19 @@
+[debug] [2023-06-15T23:08:47.075Z] ----------------------------------------------------------------------
+[debug] [2023-06-15T23:08:47.078Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\satta\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2023-06-15T23:08:47.079Z] CLI Version:   12.3.1
+[debug] [2023-06-15T23:08:47.080Z] Platform:      win32
+[debug] [2023-06-15T23:08:47.080Z] Node Version:  v18.12.1
+[debug] [2023-06-15T23:08:47.081Z] Time:          Fri Jun 16 2023 07:08:47 GMT+0800 (Hong Kong Standard Time)
+[debug] [2023-06-15T23:08:47.082Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-15T23:08:47.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-15T23:08:47.275Z] > authorizing via signed-in user (sattarikram81@gmail.com)
+[debug] [2023-06-15T23:08:47.275Z] [iam] checking project food-blocks-23e80 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-15T23:08:47.278Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-blocks-23e80:testIamPermissions [none]
+[debug] [2023-06-15T23:08:47.278Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-blocks-23e80:testIamPermissions x-goog-quota-user=projects/food-blocks-23e80
+[debug] [2023-06-15T23:08:47.279Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-blocks-23e80:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-15T23:08:48.993Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-blocks-23e80:testIamPermissions 200
+[debug] [2023-06-15T23:08:48.995Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/food-blocks-23e80:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-15T23:08:48.999Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/food-blocks-23e80 [none]
+[debug] [2023-06-15T23:08:49.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/food-blocks-23e80 200
+[debug] [2023-06-15T23:08:49.819Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/food-blocks-23e80 {"projectId":"food-blocks-23e80","projectNumber":"1012586025143","displayName":"Food-Blocks","name":"projects/food-blocks-23e80","resources":{"hostingSite":"food-blocks-23e80","storageBucket":"food-blocks-23e80.appspot.com","locationId":"asia-east2"},"state":"ACTIVE","etag":"1_6a3b68c2-3339-49e7-bb8a-7801fa4258de"}
